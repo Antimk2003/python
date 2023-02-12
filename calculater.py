@@ -1,6 +1,9 @@
+print("======= Simple Calculator =======")
+
 num1 =int(input("Enter the number :="))
 num2 =int(input("Enter the number :="))
 operater =input("Enter the operater ,+,_,/,//,%,*:=" )
+print("--------------------------------------------")
 if operater == "+":
     print("add",num1+num2) 
 elif operater == "-":
